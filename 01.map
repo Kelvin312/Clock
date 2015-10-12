@@ -1,0 +1,23 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+time                                                              0x0160       3
+indState                                                          0x0163       2
+timeOff                                                           0x0165       2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+timeSec                                                           R5           1
+timeMin                                                           R4           1
+indSwap                                                           R7           1
+isIndEnable                                                       R6           1
+btn1state                                                         R9           1
+btn1PressTime                                                     R8           1
+btn2PressTime                                                     R11          1
+btn2state                                                         R10          1
+migMig                                                            R13          1
